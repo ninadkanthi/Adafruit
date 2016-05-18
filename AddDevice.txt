@@ -1,0 +1,143 @@
+{
+
+  "DeviceProperties": {
+
+    "DeviceID": "nk_arduino_device_1",
+
+    "HubEnabledState": true,
+
+    "CreatedTime": "2015-12-14T22:28:24.720717Z",
+
+    "DeviceState": "normal",
+
+    "UpdatedTime": "2015-12-22T19:58:02.2369042Z",
+
+    "Manufacturer": "Adafruit.",
+
+    "ModelNumber": "Feather",
+
+    "SerialNumber": "SER5102",
+
+    "FirmwareVersion": "1.96",
+
+    "Platform": "Arduino",
+
+    "Processor": "ATSAMD21G18 ARM Cortex M0 processor",
+
+    "InstalledRAM": "28 MB",
+
+    "Latitude": 51.4333,
+
+    "Longitude": -0.7667
+
+  },
+
+  "Commands": [
+
+    {
+
+      "Name": "PingDevice",
+
+      "Parameters": null
+
+    },
+
+    {
+
+      "Name": "StartTelemetry",
+
+      "Parameters": null
+
+    },
+
+    {
+
+      "Name": "StopTelemetry",
+
+      "Parameters": null
+
+    },
+
+    {
+
+      "Name": "ChangeSetPointTemp",
+
+      "Parameters": [
+
+        {
+
+          "Name": "SetPointTemp",
+
+          "Type": "double"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "Name": "DiagnosticTelemetry",
+
+      "Parameters": [
+
+        {
+
+          "Name": "Active",
+
+          "Type": "boolean"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "Name": "ChangeDeviceState",
+
+      "Parameters": [
+
+        {
+
+          "Name": "DeviceState",
+
+          "Type": "string"
+
+        }
+
+      ]
+
+    }
+
+  ],
+
+  "CommandHistory": [],
+
+  "IsSimulatedDevice": 0,
+
+  "Version": "1.0",
+
+  "ObjectType": "DeviceInfo",
+
+  "IoTHub": {
+
+    "MessageId": null,
+
+    "CorrelationId": null,
+
+    "ConnectionDeviceId": "nk_arduino_device_1",
+
+    "ConnectionDeviceGenerationId": "WGSg3Yxa5avDZ7XwweYBGHQLH2KRuVLZwtP1ApBMDkQ=",
+
+    "EnqueuedTime": "0001-01-01T00:00:00",
+
+    "StreamId": null
+
+  },
+
+  "id": "nk_arduino_device_1"
+
+}
